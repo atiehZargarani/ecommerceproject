@@ -1,0 +1,32 @@
+@font-face {
+  font-family: vazir;
+  src: url("../public/Assets/Fonts/Vazir.woff") format("woff");
+  src: url('../public/Assets/Fonts/Vazir.eot');
+  src: url('../public/Assets/Fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+    url('../public/Assets/Fonts/Vazir.woff2') format('woff2'),
+    url('../public/Assets/Fonts/Vazir.woff') format('woff'),
+    url('../public/Assets/Fonts/Vazir.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: vazir !important;
+background-color: black !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  direction: rtl !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+a {
+  font-family: vazir !important;
+
+  text-decoration: none !important;
+  color: white;
+}
